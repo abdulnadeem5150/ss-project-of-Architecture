@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS Architectura - Modern Architecture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">SS Architectura</h1>
+            <p class="tagline">Designing the Future</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+        <div class="hero-text">
+            <h2>Inspiring Modern Architecture</h2>
+            <p>Transforming visions into breathtaking structures.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Latest Projects</h2>
+            <div class="cards">
+                <div class="card slide-up">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="Modern Building">
+                    <div class="card-content">
+                        <h3>Urban Tower</h3>
+                        <p>A stunning high-rise that redefines city skylines.</p>
+                    </div>
+                </div>
+                <div class="card slide-up">
+                    <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Glass Building">
+                    <div class="card-content">
+                        <h3>Glass Horizon</h3>
+                        <p>Where transparency meets elegance in design.</p>
+                    </div>
+                </div>
+                <div class="card slide-up">
+                    <img src="https://images.unsplash.com/photo-1505842465776-3bfd9625c623" alt="Minimalist House">
+                    <div class="card-content">
+                        <h3>Minimalist Villa</h3>
+                        <p>Blending simplicity with modern comfort.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container fade-in">
+            <h2 class="section-title">About Us</h2>
+            <p>
+                At SS Architectura, we believe architecture is not just about buildings — it’s about shaping experiences. 
+                With a team of innovative designers and engineers, we deliver world-class designs that blend beauty, functionality, and sustainability.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact Us</h2>
+            <form id="contactForm" action="https://formspree.io/f/xrbljwdv" method="POST" class="slide-up">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="formStatus" class="status-message"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SS Architectura | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
